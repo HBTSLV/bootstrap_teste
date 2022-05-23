@@ -10,7 +10,7 @@
     border: 3px solid #ebceeb;
     width: 1080px;
     height: 180px;
-    margin: 0px;
+    margin-top: 5px;
   }
 
   #title, .subtitle, .post_title {
