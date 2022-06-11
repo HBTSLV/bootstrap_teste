@@ -1,0 +1,20 @@
+ #title {
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+  .cabecalho {
+   display: flex;
+   background: var(--cinza);
+   border: 5px solid white;
+   color: white;
+   justify-content: center;
+   width: auto;
+   height: 20vw;
+   align-items: center;
+ }
+ 
+  .header__container {
+   display: flex;
+ }

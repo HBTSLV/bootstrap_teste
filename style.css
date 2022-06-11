@@ -1,81 +1,16 @@
+  @import url("css/header.css");
+  
+  
+  :root {
+    --fonte-padrao: "Poppins";
+    --cor-de-fundo: #0a0040;
+    --cinza: #969696;
+  }
+  
+  
   body {
-    background: #545354;
-    font-family: Verdana;
-    margin: auto;
-    max-width: 1080px;
+    background: var(--cor-de-fundo);
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 400;
   }
-  
-  #title, .subtitle, .post_title {
-    color: #7a797a;
-  }
-
-  #title {
-    font-size: 40px;
-    text-transform: uppercase;
-  }
-
-  a {
-    text-decoration: none;
-    color: #7a797a;
-  }
-
-  .post_title {
-    font-size: 28px;
-    font-style: italic;
-  }
-    
-  .menu {
-    background: silver;
-    border-radius: 10px;
-    border: 3px solid #ebceeb;
-    max-width: 1080px;
-    width: auto;
-    height: auto;
-    margin: 5px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-
-  .post, #title { 
-    background: #f5ebf2;
-    padding: 5px;
-    border-radius: 7px;
-    border: 3px solid #ebceeb;
-    margin: 3px;
-    max-width: 1080px;
-    justify-content: center;
-  }
-
-  .itemmenu {
-    background: #f5ebf2;       
-    border-radius: 7px;
-    border: 3px solid #ebceeb;
-    margin: 5px;
-    height: 30px;
-    width: auto;
-    padding: 3px;
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .flex-container {
-    margin: 0;
-    padding:0;
-    display: flex;
-    list-style: none;
-  }
-  
-  .row {
-    flex-flow: row wrap;
-  }
-  
-  .around {
-    justify-content: space-around;  
-  }
-  
-  .central {
-    align-content: center;
-  }
-  
-
