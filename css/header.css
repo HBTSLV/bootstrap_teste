@@ -7,12 +7,14 @@
   .cabecalho {
    display: flex;
    background: var(--cinza);
-   border: 5px solid white;
    color: white;
-   justify-content: center;
-   width: auto;
+   justify-content: center; 
+   width: 98%;
    height: 20vw;
    align-items: center;
+   justify-items: center;
+   position: relative;
+   margin: 0 auto;
  }
  
   .header__container {
