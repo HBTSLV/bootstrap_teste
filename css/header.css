@@ -9,12 +9,12 @@
    background: var(--cinza);
    color: white;
    justify-content: center; 
-   width: 98%;
-   height: 20vw;
    align-items: center;
-   justify-items: center;
    position: relative;
+   width: 98%;
+   height: 60px;
    margin: 0 auto;
+   padding: 2em;
  }
  
   .header__container {
