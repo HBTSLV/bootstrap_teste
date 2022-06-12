@@ -1,28 +1,31 @@
   .menu {
     background: var(--cinza);
-    display: flex;
     width: auto;
-    height: 3em;
     margin-top: 1px;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
+    font-weight: 700;
+    padding: 0 2em;
   }
 
-  .menu a{
+  .texto__menu {
     color: white;
     text-decoration: none; 
+    font-size: 32px;
+    text-transform: uppercase;
   }
 
-  .menu__lista {
-    width: auto;
-    display: flex;
-    align-items: center;
-    position: relative;
+  .menu__lista{
+    height: auto;
+    width: 1em 2.2em;
+    display: flex; 
   }
 
   .item__menu {
-    background: var(--azul-escuro); 
-    padding: 0.6em; 
-    margin: 5px 4vw;
+    align-items: center;
+    display: flex;
+    margin: 1vw;
+    background: var(--cinza-escuro);
+    width: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3em;
   }
