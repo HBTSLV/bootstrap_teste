@@ -8,7 +8,7 @@
     --cinza: #404040;
     --cinza-escuro: #666666;
   }
-  
+
   
   body {
     background: var(--cinza-escuro);
