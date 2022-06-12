@@ -1,16 +1,18 @@
   @import url("css/header.css");
+  @import url("css/menu.css");
   
   
   :root {
     --fonte-padrao: "Poppins";
-    --cor-de-fundo: #0a0040;
-    --cinza: #969696;
+    --azul-escuro: #0a0040;
+    --cinza-escuro: #666666;
+    --cinza: #404040;
   }
-  
-  
+
   body {
-    background: var(--cor-de-fundo);
+    background: var(--cinza-escuro);
     font-family: var(--fonte-padrao);
     font-size: 16px;
     font-weight: 400;
+    align-items: center;
   }
