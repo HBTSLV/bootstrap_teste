@@ -1,7 +1,7 @@
   .menu {
     background: var(--cinza);
     width: auto;
-    margin-top: 1px;
+    margin:  0;
     font-weight: 700;
     padding: 0 2em;
   }
@@ -23,7 +23,7 @@
     align-items: center;
     display: flex;
     margin: 1vw;
-    background: var(--cinza-escuro);
+    background: var(--cinza-menu);
     width: auto;
     text-align: center;
     border-radius: 5px;
