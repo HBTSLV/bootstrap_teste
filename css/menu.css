@@ -1,7 +1,7 @@
   .menu {
     background: var(--cinza);
     width: auto;
-    margin-top: 1px;
+    margin: 1em auto;
     font-weight: 700;
     padding: 0 2em;
   }
@@ -15,17 +15,15 @@
 
   .menu__lista{
     height: auto;
-    width: 1em 2.2em;
     display: flex; 
   }
 
-  .item__menu {
-    align-items: center;
+  .item__menu {    
     display: flex;
     margin: 1vw;
     background: var(--cinza-escuro);
     width: auto;
     text-align: center;
     border-radius: 5px;
-    padding: 3em;
+    padding: 2em;
   }
