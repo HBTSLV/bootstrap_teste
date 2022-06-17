@@ -4,10 +4,7 @@
     --fonte-padrao: "Poppins";
     --azul-escuro: #0a0040;
     --cinza-escuro: #666666;
-    --cinza-esc: #404040;
-    --cinza: linear-gradient(50.54deg, #1a1a1a 5.49%, #404040 110.37%);
-    --cinza-menu: linear-gradient(50.54deg, #404040 5.49%, #1a1a1a 110.37%);
- 
+    --cinza: #404040;
   }
 
   body {
