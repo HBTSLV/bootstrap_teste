@@ -5,15 +5,42 @@
    font-size: 72px;
  }
 
+
   .cabecalho {
-   display: flex;
+   display: inline-block;
    background: var(--cinza);
    color: white;
-   justify-content: center; 
-   align-items: center;
-   position: relative;
-   height: 55px;
    width: auto;
-   margin: 0 auto;
    padding: 2em;
- } 
+  }
+
+  .menu {
+    background: var(--cinza);
+    width: auto;
+    margin: 1em auto;
+    font-weight: 700;
+    padding: 0 2em;
+    align-items: center;
+  }
+
+  .texto__menu {
+    color: white;
+    text-decoration: none; 
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  .menu__lista{
+    height: auto;
+    display: flex; 
+  }
+
+  .item__menu {    
+    display: flex;
+    margin: 1vw;
+    background: var(--cinza-escuro);
+    width: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2em;
+  }
